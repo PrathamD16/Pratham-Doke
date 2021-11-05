@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- For internal CSS we create designs just by calling their ID or classes name, and we can apply
+    these arttributes to them -->
+    <!-- To Use these type of CSS follow the steps from (line 31)-->
+    <!--4. Now define the name of that class with syntax        <style>   class name{ }   </style>-->
+    <!--5. give your desire design-->
+    <style>
+        .para1
+        {
+            color: aquamarine;
+            background-color: blue;
+            text-shadow: 3px; 
+            display: inline;
+        }
+        .div1
+        {
+            color: aqua;
+            background-color: cornflowerblue;
+            border: 10px solid; 
+            /* define 'Solid' because it not the your border will not be visible*/
+            /* px = pixel unit */
+        }
+
+
+        .div2
+        {
+            color: black;
+            background-color: darkcyan;
+            border: 5px solid;
+            
+        }
+        .para2
+        {
+            background-color: antiquewhite;
+            display: block;
+            
+
+        }
+    </style>
+
+   
+</head>
+<body>
+    <!-- 1. Call any tag you want suppose you call paragraph with tag -------       <p>lorem25</p> -->
+    <!-- 2. Give a particular name to that tag by defining its class, example at line  = 55 -->
+    <!-- 3. Head for line 11 now -->
+    <h1>My Title</h1>
+    <div class="div1">
+        <p1 class = "para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+            Harum consectetur voluptatem molestiae aliquam.<br>
+            Obcaecati minus rerum nulla ut amet mollitia <br>
+            nemo maiores quo. Labore, impedit!<br>
+            <!-- <br> ends the line of text and print it to the next line -->
+        </p1>
+    </div>
+
+    <div class="div2">
+        <p1 class="para2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Necessitatibus animi ipsam debitis dolores blanditiis corporis modi facilis, 
+            officia molestiae nisi similique deserunt provident ab laudantium velit sunt possimus? Adipisci, culpa.
+        </p1>
+    </div>
+    
+    
+</body>
+</html>
+
+<!-- Shortcut: 
+    To give your tag a class name just call the tag full stop and write the name -->
+
+<!-- Like type    p.name1    div.div1 -->
+
+<!-- You can give any class name to your any tags like headers,titles,paragraphs,division -->
+<!-- Division tag divides your paragraph into segments and they are designed modifiable -->
