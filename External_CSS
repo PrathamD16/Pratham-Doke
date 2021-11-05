@@ -22,3 +22,8 @@
     <h3>New Head</h3>
 </body>
 </html>
+
+
+
+
+****Note::::: For this type of CSS, please refer the file style.css, as it is being imported.(Refer line number 13)
