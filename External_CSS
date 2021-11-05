@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter - 2</title>
+    <!-- In external CSS we import a file which has only CSS code that is only design code,
+    no HTML code at all -->
+    <!-- And below is syntax how it can be done -->
+    <!-- Refer the file style.css with it, the code from that file is complied with these file and we get the desired output -->
+    <link rel = "stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>My Title</h1>
+    <h2>This is my paragraph</h2>
+    <p>
+        C + O<sub>2</sub> &rightarrow; CO<sub>2</sub>   
+    </p>
+    <h3>New Head</h3>
+</body>
+</html>
